@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "script/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icons16.png",
+      "default_popup": "popup.html",
+      "default_title": "Aeolian影视云"
+   },
+   "content_scripts": [ {
+      "js": [ "script/jquery.js", "script/yunjiexi.js" ],
+      "matches": [ "*://www.iqiyi.com/*", "*://v.youku.com/*", "*://www.le.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "去广告，免VIP，支持爱奇艺、优酷、乐视等视频网站！",
+   "icons": {
+      "128": "images/icons128.png",
+      "16": "images/icons16.png",
+      "48": "images/icons48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqskWj2kyCj2B0Wx/5evWD0k2xrLWW/81clJNkmQQ4KXg1NK5w/I7Gq7zRdn7RqR2L7HBZ7isaM6Pl/gDIiWNkjJdKRZmbhZRDJ+wY8JH+2//rWqldrzWpGGgRKG61u7tu7YMR95kVmzUOUwhzmQzOPEhtS4+gsIG1HWaM/djbJkO4XTcjF1yyg0ql17m1k0Sbx/qCPioqGpg4/R7gbLTrGb67bQpmDRAb1okMHPSGLu8yMbTOznpsYDcJI7imTWh6H6MebA6WFxIxjqboJPM3h8KWnpu4ymy1Rs5rhLDYbAhpvhepYGdwr+/1QB80n8sJD/wHhFFUVREgIPzeFMQyQIDAQAB",
+   "manifest_version": 2,
+   "name": "Aeolian影视云",
+   "permissions": [ "tabs", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update/",
+   "version": "1.0"
+}

@@ -1,0 +1,101 @@
+a{
+	text-decoration:none
+}
+body{
+	width:220px;
+    margin: 0;
+    font-family: "Microsoft YaHei", "Tahoma", "Helvetica", "宋体", "sans-serif";
+    color:#707070;
+}
+body>h4{
+	text-align:center;
+	margin:  0;
+	padding: 8px;
+    color:#403c3d;
+	background: #c3d2f6;
+}
+.info{
+	text-align: center;
+}
+.info span{
+	text-align: left;
+    display: block;
+    padding: 5px;
+    color: #e88686;
+    font-size: 12px;
+}
+.info img{
+	width: 80%;
+}
+.info p{
+	margin: 0 10px;
+    font-size: 14px;
+}
+.set{
+	margin-top: 20px;
+	border-top: 1px solid #03A9F4;
+}
+.set>span{
+	text-align: left;
+	display: block;
+    padding: 5px;
+    color: #e88686;
+    font-size: 12px;
+}
+.set div{
+	text-align: center;
+}
+.set .jiexibt{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.set .jiexibt span{
+	position: relative;
+    top: 8px;
+}
+.set div input{
+	width: 45px;
+    height: 25px;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    border-radius: 20px;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+}
+.set div input:checked{
+	border-color: #64bd63;
+    box-shadow: #64bd63 0 0 0 16px inset;
+    background-color: #64bd63;
+}
+.set div input:before{
+	content: '';
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.mui-switch:checked:before {
+    left: 21px;
+}
+.copyright{
+    font-size: 12px;
+    text-align: center;
+    color:#bfbfbf;
+    margin-bottom: 5px;
+}
+.copyright a{
+    color:#bfbfbf;
+}
