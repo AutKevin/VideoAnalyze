@@ -18,10 +18,8 @@
       "16": "images/icons16.png",
       "48": "images/icons48.png"
    },
-   "key": "QIDAQAB",
    "manifest_version": 2,
    "name": "Aeolian影视云",
    "permissions": [ "tabs", "storage", "contextMenus" ],
-   "update_url": "https://clients2.google.com/service/update/",
    "version": "1.0"
 }
